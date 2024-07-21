@@ -1,0 +1,33 @@
+package test;
+
+public class feb {
+
+	public static void main(String[] args) {
+		int n=10;
+		System.out.println(isPrime(n,2));
+
+	}
+	public static int isPrime(int n,int o) {
+		int c=0;
+		if(o==n) {
+			return c;
+		}
+		if(isPri(o,2)) {
+			 c++;
+		 }
+		return isPrime( n, o+1);
+		 
+	}
+	
+	public static boolean isPri(int n,int i) {
+		if(i*i>n) {
+			return true;
+		}
+		else if(n%i==0) {
+			return false;
+		}else {
+			return isPri(n,i+1);
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package test;
+
+public class recu {
+
+	public static void main(String[] args) {
+		int n=3;
+		int i=4;
+		System.out.println(rec(n,i));
+
+	}
+	public static int rec(int n,int i) {
+		if(i==0) {
+			return 1;
+		}
+		return n*rec(n,i-1);
+		
+	}
+
+}
