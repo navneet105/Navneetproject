@@ -1,0 +1,10 @@
+package LEC21;
+
+public class n_queen_problem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

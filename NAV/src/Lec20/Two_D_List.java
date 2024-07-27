@@ -13,6 +13,7 @@ public class Two_D_List {
 	//	ll.get(0);
 	//	System.out.println(ll.get(0));
 		ll.get(1).add(9);
+		ll.get(1).add(9);
 		System.out.println(ll);
 
 	}
