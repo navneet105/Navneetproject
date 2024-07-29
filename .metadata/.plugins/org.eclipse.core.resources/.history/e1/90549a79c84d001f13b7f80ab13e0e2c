@@ -1,7 +1,5 @@
 package test;
 
-import java.util.Scanner;
-
 public class feb {
 
 	public static void main(String[] args) {
