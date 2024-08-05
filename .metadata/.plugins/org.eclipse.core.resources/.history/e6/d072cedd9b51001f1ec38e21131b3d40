@@ -1,0 +1,9 @@
+package LEC23Season3;
+
+public class Person {
+
+	String name="kaju";
+	int age=21;
+	
+
+}

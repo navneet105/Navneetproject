@@ -1,0 +1,16 @@
+package LEC23Season3;
+
+public class Person {
+	//constructor class ke data meber ko intilize krna  class aur const ka name same hota h no return type nad access modifier is public
+	//sbse phle contructor nhi chlta h isse phle 2 step aati h(1 memory alloction then parshinng)
+	String name="kaju";
+	int age=21;
+	public Person(String name,int age) {
+		this.name=name;
+		this.age=age;
+	}
+//	public Person() {
+//		
+//	}
+
+}

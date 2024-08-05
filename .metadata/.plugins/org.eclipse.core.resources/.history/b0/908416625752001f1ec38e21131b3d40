@@ -1,0 +1,12 @@
+package LEC24;
+
+public class Student_Client {
+
+	public static void main(String[] args) {
+		Student s=new Student("Raj",22);
+		s.setAge(-9);
+		System.out.println(s.getAge());
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package LEC23Season3;
+
+public class Student {
+
+	String name;
+	int age;
+	
+	public void Intro_yourSelf() {
+		System.out.println("My name is"+name+"age is "+age);
+		
+	}
+	public void SayHey(String name) {
+		System.out.println(this.name +" Say hay "+name);
+	}
+
+	
+
+}

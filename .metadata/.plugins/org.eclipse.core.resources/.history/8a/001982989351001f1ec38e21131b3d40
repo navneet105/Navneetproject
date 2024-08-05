@@ -1,0 +1,23 @@
+package LEC23Season3;
+
+import java.util.ArrayList;
+
+public class Student_Client {
+
+	public static void main(String[] args) {
+		//ArrayList<Integer>ll=new ArrayList<>();
+		Student s=new Student();
+		//rhs object creation in heap memory whre name is null and age 0
+		//s name ka variable stack m jha adress 2k create hoga 
+		//s is the reference variable
+		//when any calss run be chek the dependecy of the that calss on the other class 
+		System.out.println(s.name);
+		System.out.println(s.age);
+		s.name="Kaju";
+		s.age=20;
+		System.out.println(s.name);
+		System.out.println(s.age);
+		s.Intro_yourSelf();
+	}
+
+}

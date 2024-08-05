@@ -11,6 +11,12 @@ public class Partition_in_array {
 			System.out.print(arr[i]+" ");
 		}
 	}
+	public static void sort(int []arr,int si,int en) {
+		int idx=Partition(arr,si,en);
+		sort(arr,si,idx-1);
+		sort(arr,idx+1,en);
+		
+	}
 
 	public static int Partition(int[] arr, int si, int ei) {
 		int item=arr[ei];
