@@ -4,9 +4,9 @@ import java.util.Iterator;
 
 public class Queue {
 //fifo
-	private int[]arr;
+	protected int[]arr;
 	private int size=0;
-	private int front=0;
+	protected int front=0;
 	public Queue() {
 		arr=new int[5];
 	}
@@ -50,7 +50,7 @@ public class Queue {
 		return size;
 	}
    public void Display() {
-	   for (int i = 0; i < arr.length; i++) {
+	   for (int i = 0; i < size; i++) {
 		int idx=(front+i)%arr.length;
 		System.out.print(arr[idx]+" ");
 	}

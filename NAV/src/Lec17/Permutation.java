@@ -16,7 +16,9 @@ public class Permutation {
 		for(int i=0;i<ques.length();i++) {
 			char ch=ques.charAt(i);
 			String s1=ques.substring(0,i);
+			System.out.print(s1+"  ");
 			String s2=ques.substring(i+1);
+			System.out.print(s2+"  ");
 			print(s1+s2,ans+ch);
 		}
 	}

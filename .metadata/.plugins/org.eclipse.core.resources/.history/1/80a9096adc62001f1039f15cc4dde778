@@ -1,0 +1,10 @@
+package Lec25;
+
+public class Find_Celebrity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

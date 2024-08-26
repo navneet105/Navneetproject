@@ -1,0 +1,10 @@
+package Lec27;
+
+public class Stu_Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package Lec27;
+
+public class Student {
+	String name="Kaju";
+	int age =20;
+
+}

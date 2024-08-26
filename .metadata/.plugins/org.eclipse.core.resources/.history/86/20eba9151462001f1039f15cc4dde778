@@ -1,0 +1,29 @@
+package Lec27;
+
+public class Client {
+
+	public static void main(String[] args) {
+//		P obj1=new P();
+//		C obj2=new C();
+//		obj1.
+		//case 1
+//		P obj=new P();
+//		System.out.println(obj.d);//1
+//		System.out.println(obj.d1);//10
+//		obj.fun();
+//		obj.fun1();
+		//case-2
+		//ref varible ka type p ka h object c ka h
+		P obj =new  C();//object in heap memory object create of cand p  obj ka data type p h
+		System.out.println(obj.d);
+		System.out.println(obj.d1);
+		System.out.println(((C)obj).d2);
+		System.out.println(((C)obj).d);
+		obj.fun();
+		obj.fun1();
+		((C)obj).fun2();
+		
+
+	}
+
+}

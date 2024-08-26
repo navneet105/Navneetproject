@@ -11,7 +11,7 @@ public class Queue_Client {
 	System.out.println(q.dequeue());
 	System.out.println(q.dequeue());
 	q.Enqueue(50);
-	q.Enqueue(60);
+	// q.Enqueue(60);
 	q.Display();
 
 	}
