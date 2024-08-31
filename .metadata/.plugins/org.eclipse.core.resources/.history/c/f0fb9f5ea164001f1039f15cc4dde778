@@ -120,7 +120,7 @@ public class LinkedList {
 			return curr.val;
 			
 		}
-		return k;`
+		return k;
 	}
 
 }
