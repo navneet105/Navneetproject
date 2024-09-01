@@ -1,0 +1,10 @@
+package Lec30;
+
+public class BinaryTreeClient {
+//protected ka inharitance package ke baher bhi ho jata h lekin defaul ka nhi hoga 
+	public static void main(String[] args) {
+		BineryTree bt=new BineryTree();
+         bt.Display();
+	}
+
+}
