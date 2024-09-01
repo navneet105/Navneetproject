@@ -1,7 +1,7 @@
-package Lec29;
+package Lec26;
 
-public class Middle_Node_of_a_ll {
-//fast and slow pointer 876
+public class Next_GREATER_NUMBER {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
