@@ -13,7 +13,6 @@ public class BinaryTreeClient {
          System.out.println(bt.ht());
          bt.preOrder();
          bt.postOrder();
-         bt.inOrder();
 	}
 
 }
