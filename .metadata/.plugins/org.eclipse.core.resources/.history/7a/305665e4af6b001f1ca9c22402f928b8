@@ -71,7 +71,7 @@ public class Cycle_removal {
 		 Node start=head;
 		 while(start!=null) {
 			 Node temp=meet;
-			 while(temp.next!=meet) {
+			 while(temp.next!=null) {
 			 if(temp.next==start) {
 				 temp.next=null;
 			 }
