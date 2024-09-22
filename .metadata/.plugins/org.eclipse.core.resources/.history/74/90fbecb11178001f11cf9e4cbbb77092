@@ -1,0 +1,5 @@
+package LEC34;
+
+public interface A {
+
+}

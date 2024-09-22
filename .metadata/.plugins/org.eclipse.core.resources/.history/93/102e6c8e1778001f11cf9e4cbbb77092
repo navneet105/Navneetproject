@@ -1,0 +1,10 @@
+package LEC34;
+
+public class Cars_Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
