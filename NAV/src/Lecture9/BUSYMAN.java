@@ -7,6 +7,8 @@ public class BUSYMAN {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0) {
 		int n=sc.nextInt()
 ;
 		Pair[]arr=new Pair[n];
@@ -31,6 +33,7 @@ public class BUSYMAN {
 		}
 		System.out.println(activities);
 	}
+		}
 	static class Pair{// here we do static in this care ager hme inner call ka access krna h 
 		int st;
 		int et;

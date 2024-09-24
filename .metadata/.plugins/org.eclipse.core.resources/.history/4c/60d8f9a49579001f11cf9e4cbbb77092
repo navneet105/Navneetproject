@@ -1,0 +1,22 @@
+package LEC35;
+
+import java.util.*;
+
+public class p253MeetingRoomsII {
+// meeting chlege prorty queue m aur end ko dekhege      aur start ke baher short krege 
+	public static void main(String[] args) {
+		int [][] intervels= {{0, 30},{5, 10},{15, 20}};
+        System.out.println(minRooms(intervels));
+	}
+	public static  int minRooms(int[][] intervels) {
+		Arrays.sort(intervels,(a,b)->a[0]-b[0]);//a,b are row and 0 is index of row  lemda expression
+		for (int i = 0; i < intervels.length; i++) {
+			for (int j = 0; j < intervels[0].length; j++) {
+				System.out.print(intervels[i][j]+" ");
+			}
+			System.out.println();
+		}
+		return 0;
+	}
+
+}

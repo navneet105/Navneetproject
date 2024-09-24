@@ -1,0 +1,8 @@
+package Lec33;
+
+public class Payment_method extends Abstract_demo {
+// ye jitne bhi unipmlemented method h unko overrride krega  means abstract_demo is parent class and payment_method is child class child class payment class ki sare property(metod ko) access krgega 
+	
+	
+
+}

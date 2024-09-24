@@ -1,4 +1,4 @@
-package LEC34;
+		package LEC34;
 
 public class LinkedList<T> {
 //last linear data structure
