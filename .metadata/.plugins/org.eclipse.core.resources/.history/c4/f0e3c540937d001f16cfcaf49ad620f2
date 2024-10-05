@@ -1,0 +1,31 @@
+package LEC36;
+
+import java.util.*;
+
+public class Set_Demo {
+
+	public static void main(String[] args) {
+		//set main duplicate nhi leta ye sirf unique value deta h
+		//duplicte add hi nhi hota 
+		HashSet<Integer>set=new HashSet<>();
+   //add o(1)  internally hash map use hota h
+		set.add(2);
+		set.add(2);
+		set.add(12);
+		set.add(-2);
+		set.add(21);
+		set.add(3);
+		set.add(13);
+		set.add(41);
+		System.out.println(set);
+		//get ? isme indexing nhi hota 
+		// get-->cantains
+		System.out.println(set.contains(5));
+		System.out.println(set.contains(2));
+		//rempove 
+		System.out.println(set.remove(7));
+		System.out.println(set.remove(3));
+		System.out.println(set);
+	}
+
+}

@@ -1,0 +1,26 @@
+package LEC36;
+
+import java.util.HashMap;
+
+public class p350IntersectionofTwoArraysII {
+
+	public static void main(String[] args) {
+		int[]arr1= {1,2,2,1};
+		int[]arr2= {2,2};
+		
+
+	}
+	public static int[] Intersection(int []arr1,int[]arr2) {
+		HashMap<Integer,Integer>map=new HashMap<>();
+		for (int i = 0; i < arr1.length; i++) {
+			if(map.containsKey(arr1[i])) {
+				map.put(arr1[i],map.get(arr1[i]+1));
+			}else {
+				map.put(arr1[i],1);
+			}
+		}
+		System.out.println(map);
+		return null;
+	}
+
+}

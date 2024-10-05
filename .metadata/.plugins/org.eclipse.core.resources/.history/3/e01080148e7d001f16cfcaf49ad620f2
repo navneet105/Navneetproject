@@ -1,0 +1,23 @@
+package LEC36;
+
+import java.util.HashMap;
+
+public class Map_Demo {
+	public static void main(String []args) {
+		HashMap<String,Integer>map=new HashMap<>();
+		//add 
+		map.put("Raj",87);
+		map.put("raj",58);
+		map.put("Ankita",78);
+		map.put("Ankit",87);
+		map.put("Kaju",79);
+		map.put("Amisha", 77);
+		map.put("Manoj", 68);
+		map.put("Puneet", 57);
+		System.out.println(map);
+		
+		
+		
+	}
+
+}
