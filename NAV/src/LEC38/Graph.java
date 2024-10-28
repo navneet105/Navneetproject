@@ -172,4 +172,37 @@ public class Graph {
 		}
 		System.out.println();
 	}
+	public void DFT() {
+		Stack<Integer>q=new Stack<>();
+		HashSet<Integer>visited=new HashSet<>();
+		for(int src:map.keySet()) {
+			if(visited.contains(src)) {
+				continue;
+			}
+			//for compont count
+			q.push(src);
+			while(!q.isEmpty()) {
+				//remove
+				int rv=q.pop();
+				//ignore if already visited
+						if(visited.contains(rv)) {
+							//for cyle
+							continue;
+						}
+				//marked visited
+						visited.add(rv);
+				//self work
+						
+							System.out.print(rv+" ");
+						
+				//add unvisited neres
+						for(int nbrs:map.get(rv).keySet()) {
+							if(!visited.contains(nbrs)) {
+								q.push(nbrs);
+							}
+						}
+			}
+		}
+		System.out.println();
+	}
 }

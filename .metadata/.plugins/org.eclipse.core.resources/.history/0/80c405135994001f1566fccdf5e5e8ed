@@ -1,0 +1,5 @@
+package Lecture45;
+//common prfix tree
+public class Trie {
+
+}
